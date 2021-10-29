@@ -4,7 +4,6 @@ This repository contains the details about how releases of the Stackable platfor
 ## Releases
 
 ### Release 2 - 2021-10-29
-Release 2 
 
 Stackable Operator for Apache HDFS: 0.1.0
 Stackable Operator for Apache Hive: 0.1.0
