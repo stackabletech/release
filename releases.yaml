@@ -1,8 +1,8 @@
 ---
 releases:
-  22.09-alpha1:
-    releaseDate: 2022-09-07
-    description: Alpha 1 of release 22.09 - focusing on security and OpenShift support. Will be replaced by release 22.09
+  22.09:
+    releaseDate: 2022-09-09
+    description: Second release focusing on security and OpenShift support
     products:
       airflow:
         operatorVersion: 0.5.0
