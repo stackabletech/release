@@ -25,7 +25,7 @@ releases:
       secret:
         operatorVersion: 0.5.0
       spark-k8s:
-        operatorVersion: 0.6.0
+        operatorVersion: 0.5.0
       superset:
         operatorVersion: 0.6.0
       trino:
