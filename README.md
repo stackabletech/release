@@ -1,21 +1,15 @@
-# release
-This repository contains the details about how releases of the Stackable platform are put together from individual components.
+# Stackable Data Platform - Releases
+
+This repository contains information about releases of the Stackable Data Platform and the contents.
+The information is available in a machine readable form in [releases.yaml](https://github.com/stackabletech/release/blob/main/releases.yaml).
 
 ## Releases
 
-### Release 22.06 - 2022-06-30
+There have been two releases so far:
 
-- Stackable Operator for Apache Airflow: 0.4.0
-- Stackable Operator for Apache HBase: 0.3.0
-- Stackable Operator for Apache HDFS: 0.4.0
-- Stackable Operator for Apache Hive: 0.6.0
-- Stackable Operator for Apache Kafka: 0.6.0
-- Stackable Operator for Apache NiFi: 0.6.0
-- Stackable Operator for Apache Spark on k8s: 0.3.0
-- Stackable Operator for Apache Superset: 0.5.0
-- Stackable Operator for Apache Zookeeper: 0.10.0
-- Stackable Operator for Commons: 0.2.0
-- Stackable Operator for Druid: 0.6.0
-- Stackable Operator for Open Policy Agent: 0.9.0
-- Stackable Operator for Secrets: 0.5.0
-- Stackable Operator for Trino: 0.4.0
+- 2022-06
+- 2022-09
+
+The next release is scheduled for 2022-11
+
+Take a look at the [release notes](https://docs.stackable.tech/home/stable/release_notes.html) for details.
