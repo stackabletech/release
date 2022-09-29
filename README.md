@@ -10,6 +10,6 @@ The following releases are available:
 - 2022-06
 - 2022-09
 
-The next release is scheduled for 2022-11
+The next release is scheduled for 2022-11.
 
 Take a look at the [release notes](https://docs.stackable.tech/home/stable/release_notes.html) for details.
