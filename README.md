@@ -5,7 +5,7 @@ The information is available in a machine readable form in [releases.yaml](https
 
 ## Releases
 
-There have been two releases so far:
+The following releases are available:
 
 - 2022-06
 - 2022-09
