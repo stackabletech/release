@@ -1,8 +1,8 @@
 ---
 releases:
-  22.11-rc1:
-    releaseDate: 2022-11-10
-    description: Second release candidate of 22.11
+  22.11:
+    releaseDate: 2022-11-14
+    description: Third release focusing on resource management
     products:
       airflow:
         operatorVersion: 0.6.0
@@ -20,38 +20,6 @@ releases:
         operatorVersion: 0.8.0
       nifi:
         operatorVersion: 0.8.1
-      opa:
-        operatorVersion: 0.11.0
-      secret:
-        operatorVersion: 0.6.0
-      spark-k8s:
-        operatorVersion: 0.6.0
-      superset:
-        operatorVersion: 0.7.0
-      trino:
-        operatorVersion: 0.8.0
-      zookeeper:
-        operatorVersion: 0.12.0
-  22.11-rc0:
-    releaseDate: 2022-11-08
-    description: First release candidate of 22.11
-    products:
-      airflow:
-        operatorVersion: 0.6.0
-      commons:
-        operatorVersion: 0.4.0
-      druid:
-        operatorVersion: 0.8.0
-      hbase:
-        operatorVersion: 0.5.0
-      hdfs:
-        operatorVersion: 0.6.0
-      hive:
-        operatorVersion: 0.8.0
-      kafka:
-        operatorVersion: 0.8.0
-      nifi:
-        operatorVersion: 0.8.0
       opa:
         operatorVersion: 0.11.0
       secret:
