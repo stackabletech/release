@@ -1,5 +1,39 @@
 ---
 releases:
+  23.1-rc0:
+    releaseDate: 2023-01-27
+    description: Fourth release focusing on image selection and logging (first release candidate)
+    products:
+      airflow:
+        operatorVersion: 23.1.0
+      commons:
+        operatorVersion: 23.1.0
+      druid:
+        operatorVersion: 23.1.0
+      hbase:
+        operatorVersion: 23.1.0
+      hdfs:
+        operatorVersion: 23.1.0
+      hive:
+        operatorVersion: 23.1.0
+      kafka:
+        operatorVersion: 23.1.0
+      listener:
+        operatorVersion: 23.1.0
+      nifi:
+        operatorVersion: 23.1.0
+      opa:
+        operatorVersion: 23.1.0
+      secret:
+        operatorVersion: 23.1.0
+      spark-k8s:
+        operatorVersion: 23.1.0
+      superset:
+        operatorVersion: 23.1.0
+      trino:
+        operatorVersion: 23.1.0
+      zookeeper:
+        operatorVersion: 23.1.0
   22.11:
     releaseDate: 2022-11-14
     description: Third release focusing on resource management
