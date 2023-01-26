@@ -1,8 +1,8 @@
 ---
 releases:
-  23.1-rc0:
+  23.1:
     releaseDate: 2023-01-27
-    description: Fourth release focusing on image selection and logging (first release candidate)
+    description: Fourth release focusing on image selection and logging
     products:
       airflow:
         operatorVersion: 23.1.0
