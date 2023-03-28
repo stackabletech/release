@@ -134,7 +134,7 @@ releases:
     releaseDate: *latest-release-release-date
     description: Always pointing to the latest stable version of the Stackable Data Platform
     products: *latest-release-products
-  dev: &latest
+  dev:
     releaseDate: 2023-01-27
     description: Development versions from main branch. Not stable!
     products:
