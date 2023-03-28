@@ -1,9 +1,9 @@
 ---
 releases:
   23.1:
-    releaseDate: 2023-01-27
+    releaseDate: &latest-release-release-date 2023-01-27
     description: Fourth release focusing on image selection and logging
-    products:
+    products: &latest-release-products
       airflow:
         operatorVersion: 23.1.0
       commons:
@@ -130,3 +130,41 @@ releases:
         operatorVersion: 0.4.0
       zookeeper:
         operatorVersion: 0.10.0
+  latest:
+    releaseDate: *latest-release-release-date
+    description: Always pointing to the latest stable version of the Stackable Data Platform
+    products: *latest-release-products
+  dev: &latest
+    releaseDate: 2023-01-27
+    description: Development versions from main branch. Not stable!
+    products:
+      airflow:
+        operatorVersion: 0.0.0-dev
+      commons:
+        operatorVersion: 0.0.0-dev
+      druid:
+        operatorVersion: 0.0.0-dev
+      hbase:
+        operatorVersion: 0.0.0-dev
+      hdfs:
+        operatorVersion: 0.0.0-dev
+      hive:
+        operatorVersion: 0.0.0-dev
+      kafka:
+        operatorVersion: 0.0.0-dev
+      listener:
+        operatorVersion: 0.0.0-dev
+      nifi:
+        operatorVersion: 0.0.0-dev
+      opa:
+        operatorVersion: 0.0.0-dev
+      secret:
+        operatorVersion: 0.0.0-dev
+      spark-k8s:
+        operatorVersion: 0.0.0-dev
+      superset:
+        operatorVersion: 0.0.0-dev
+      trino:
+        operatorVersion: 0.0.0-dev
+      zookeeper:
+        operatorVersion: 0.0.0-dev
