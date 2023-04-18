@@ -35,9 +35,9 @@ releases:
       zookeeper:
         operatorVersion: 23.4.0
   23.1:
-    releaseDate: &latest-release-release-date 2023-01-27
+    releaseDate: 2023-01-27
     description: Fourth release focusing on image selection and logging
-    products: &latest-release-products
+    products:
       airflow:
         operatorVersion: 23.1.0
       commons:
