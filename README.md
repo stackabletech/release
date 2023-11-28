@@ -7,6 +7,7 @@ The information is available in a machine-readable form in [releases.yaml](https
 
 The following releases are available:
 
+- 2023-11
 - 2023-07
 - 2023-04
 - 2023-01

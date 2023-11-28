@@ -1,9 +1,45 @@
 ---
 releases:
-  23.7:
-    releaseDate: &latest-release-release-date 2023-07-26
-    description: Sixth release focusing on resources and pod overrides
+  23.11:
+    releaseDate: &latest-release-release-date 2023-11-30
+    description: Seventh release focusing on PodDisruptionBudgets and graceful shutdown
     products: &latest-release-products
+      airflow:
+        operatorVersion: 23.11.0
+      commons:
+        operatorVersion: 23.11.0
+      druid:
+        operatorVersion: 23.11.0
+      hbase:
+        operatorVersion: 23.11.0
+      hdfs:
+        operatorVersion: 23.11.0
+      hello-world:
+        operatorVersion: 23.11.0
+      hive:
+        operatorVersion: 23.11.0
+      kafka:
+        operatorVersion: 23.11.0
+      listener:
+        operatorVersion: 23.11.0
+      nifi:
+        operatorVersion: 23.11.0
+      opa:
+        operatorVersion: 23.11.0
+      secret:
+        operatorVersion: 23.11.0
+      spark-k8s:
+        operatorVersion: 23.11.0
+      superset:
+        operatorVersion: 23.11.0
+      trino:
+        operatorVersion: 23.11.0
+      zookeeper:
+        operatorVersion: 23.11.0
+  23.7:
+    releaseDate: 2023-07-26
+    description: Sixth release focusing on resources and pod overrides
+    products:
       airflow:
         operatorVersion: 23.7.0
       commons:
