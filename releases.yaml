@@ -14,8 +14,6 @@ releases:
         operatorVersion: 23.11.0
       hdfs:
         operatorVersion: 23.11.0
-      hello-world:
-        operatorVersion: 23.11.0
       hive:
         operatorVersion: 23.11.0
       kafka:
