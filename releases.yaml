@@ -14,6 +14,8 @@ releases:
         operatorVersion: 24.3.0
       hdfs:
         operatorVersion: 24.3.0
+      hello-world:
+        operatorVersion: 24.3.0
       hive:
         operatorVersion: 24.3.0
       kafka:
