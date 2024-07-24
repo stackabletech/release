@@ -1,34 +1,45 @@
 ---
 releases:
-  # TODO: Remove once 24.7 is out
-  end-to-end-security-release:
-    releaseDate: 1970-01-01
-    description: Intermediate release specific for the end-to-end-security stack, as not all changes have made it into 24.3. This is basically 24.3, but with a nightly trino-operator, as it contains https://github.com/stackabletech/trino-operator/pull/559 - which is needed for row level filtering and column masking.
-    products:
-      commons:
-        operatorVersion: 24.3.0
-      hdfs:
-        operatorVersion: 24.3.0
-      hive:
-        operatorVersion: 24.3.0
-      listener:
-        operatorVersion: 24.3.0
-      opa:
-        operatorVersion: 24.3.0
-      secret:
-        operatorVersion: 24.3.0
-      spark-k8s:
-        operatorVersion: 24.3.0
-      superset:
-        operatorVersion: 24.3.0
-      trino:
-        operatorVersion: 0.0.0-dev
-      zookeeper:
-        operatorVersion: 24.3.0
-  24.3:
-    releaseDate: &latest-release-release-date 2024-03-20
-    description: Security focused release.
+  24.7:
+    releaseDate: &latest-release-release-date 2024-07-24
+    description: Security focused release to reduce CVEs and to build product images from source.
     products: &latest-release-products
+      airflow:
+        operatorVersion: 24.7.0
+      commons:
+        operatorVersion: 24.7.0
+      druid:
+        operatorVersion: 24.7.0
+      hbase:
+        operatorVersion: 24.7.0
+      hdfs:
+        operatorVersion: 24.7.0
+      hello-world:
+        operatorVersion: 24.7.0
+      hive:
+        operatorVersion: 24.7.0
+      kafka:
+        operatorVersion: 24.7.0
+      listener:
+        operatorVersion: 24.7.0
+      nifi:
+        operatorVersion: 24.7.0
+      opa:
+        operatorVersion: 24.7.0
+      secret:
+        operatorVersion: 24.7.0
+      spark-k8s:
+        operatorVersion: 24.7.0
+      superset:
+        operatorVersion: 24.7.0
+      trino:
+        operatorVersion: 24.7.0
+      zookeeper:
+        operatorVersion: 24.7.0
+  24.3:
+    releaseDate: 2024-03-20
+    description: Security focused release to improve platform authentication and authorization.
+    products:
       airflow:
         operatorVersion: 24.3.0
       commons:
@@ -299,7 +310,7 @@ releases:
     description: Always pointing to the latest stable version of the Stackable Data Platform
     products: *latest-release-products
   dev:
-    releaseDate: 2023-01-27
+    releaseDate: 1970-01-01
     description: Development versions from main branch. Not stable!
     products:
       airflow:
