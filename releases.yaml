@@ -2,7 +2,7 @@
 releases:
   24.7:
     releaseDate: &latest-release-release-date 2024-07-24
-    description: Security focused release to reduce CVEs and to build product images from source.
+    description: Security focused release to reduce CVEs and to build product images from source
     products: &latest-release-products
       airflow:
         operatorVersion: 24.7.0
@@ -38,7 +38,7 @@ releases:
         operatorVersion: 24.7.0
   24.3:
     releaseDate: 2024-03-20
-    description: Security focused release to improve platform authentication and authorization.
+    description: Security focused release to improve platform authentication and authorization
     products:
       airflow:
         operatorVersion: 24.3.0
