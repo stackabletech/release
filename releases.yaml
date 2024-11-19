@@ -73,6 +73,7 @@ releases:
         operatorVersion: 24.7.0
       zookeeper:
         operatorVersion: 24.7.0
+
   24.3:
     releaseDate: 2024-03-20
     description: Security focused release to improve platform authentication and authorization
@@ -144,6 +145,7 @@ releases:
         operatorVersion: 23.11.0
       zookeeper:
         operatorVersion: 23.11.0
+
   23.7:
     releaseDate: 2023-07-26
     description: Sixth release focusing on resources and pod overrides
@@ -178,6 +180,7 @@ releases:
         operatorVersion: 23.7.0
       zookeeper:
         operatorVersion: 23.7.0
+
   23.4:
     releaseDate: 2023-05-17
     description: Fifth release focusing on affinities and product status
@@ -212,6 +215,7 @@ releases:
         operatorVersion: 23.4.1
       zookeeper:
         operatorVersion: 23.4.1
+
   23.1:
     releaseDate: 2023-01-27
     description: Fourth release focusing on image selection and logging
@@ -246,6 +250,7 @@ releases:
         operatorVersion: 23.1.0
       zookeeper:
         operatorVersion: 23.1.0
+
   22.11:
     releaseDate: 2022-11-14
     description: Third release focusing on resource management
@@ -278,6 +283,7 @@ releases:
         operatorVersion: 0.8.0
       zookeeper:
         operatorVersion: 0.12.0
+
   22.09:
     releaseDate: 2022-09-09
     description: Second release focusing on security and OpenShift support
@@ -310,6 +316,7 @@ releases:
         operatorVersion: 0.6.0
       zookeeper:
         operatorVersion: 0.11.0
+
   22.06:
     releaseDate: 2022-06-30
     description: First official release of the Stackable Data Platform
@@ -342,10 +349,12 @@ releases:
         operatorVersion: 0.4.0
       zookeeper:
         operatorVersion: 0.10.0
+
   latest:
     releaseDate: *latest-release-release-date
     description: Always pointing to the latest stable version of the Stackable Data Platform
     products: *latest-release-products
+
   dev:
     releaseDate: 1970-01-01
     description: Development versions from main branch. Not stable!
