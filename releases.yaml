@@ -2,7 +2,7 @@
 releases:
   24.11:
     releaseDate: &latest-release-release-date 2024-11-18
-    description: TBD
+    description: The November 2024 release
     products: &latest-release-products
       airflow:
         operatorVersion: 24.11.0
