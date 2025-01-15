@@ -5,37 +5,37 @@ releases:
     description: The November 2024 release
     products: &latest-release-products
       airflow:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       commons:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       druid:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       hbase:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       hdfs:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       hello-world:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       hive:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       kafka:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       listener:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       nifi:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       opa:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       secret:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       spark-k8s:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       superset:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       trino:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
       zookeeper:
-        operatorVersion: 24.11.0
+        operatorVersion: 24.11.1
 
   24.7:
     releaseDate: 2024-07-24
