@@ -7,15 +7,15 @@ The information is available in a machine-readable form in [releases.yaml](https
 
 The following releases are available:
 
-- 2024-11
-- 2024-07
-- 2024-03
-- 2023-11
-- 2023-07
-- 2023-04
-- 2023-01
-- 2022-11
-- 2022-09
-- 2022-06
+- 24.11
+- 24.7
+- 24.3
+- 23.11
+- 23.7
+- 23.4
+- 23.1
+- 22.11
+- 22.9
+- 22.6
 
 Take a look at the [release notes](https://docs.stackable.tech/home/stable/release_notes.html) for details.
