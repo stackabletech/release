@@ -1,9 +1,43 @@
 ---
 releases:
-  24.11:
-    releaseDate: &latest-release-release-date 2024-11-18
-    description: The November 2024 release
+  25.3:
+    releaseDate: &latest-release-release-date 2025-03-24
+    description: The March 2025 release
     products: &latest-release-products
+      airflow:
+        operatorVersion: 25.3.0-pr598
+      commons:
+        operatorVersion: 25.3.0-pr336
+      druid:
+        operatorVersion: 25.3.0-pr709
+      hbase:
+        operatorVersion: 25.3.0-pr637
+      hdfs:
+        operatorVersion: 25.3.0-pr659
+      hive:
+        operatorVersion: 25.3.0-pr583
+      kafka:
+        operatorVersion: 25.3.0-pr838
+      listener:
+        operatorVersion: 25.3.0-pr289
+      nifi:
+        operatorVersion: 25.3.0-pr764
+      opa:
+        operatorVersion: 25.3.0-pr700
+      secret:
+        operatorVersion: 25.3.0-pr577
+      spark-k8s:
+        operatorVersion: 25.3.0-pr540
+      superset:
+        operatorVersion: 25.3.0-pr607
+      trino:
+        operatorVersion: 25.3.0-pr723
+      zookeeper:
+        operatorVersion: 25.3.0-pr925
+  24.11:
+    releaseDate: 2024-11-18
+    description: The November 2024 release
+    products:
       airflow:
         operatorVersion: 24.11.1
       commons:
