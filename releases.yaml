@@ -2,7 +2,7 @@
 releases:
   25.7:
     releaseDate: &latest-release-release-date 2025-07-23
-    description: The March 2025 release
+    description: The July 2025 release
     products: &latest-release-products
       airflow:
         operatorVersion: 25.7.0
