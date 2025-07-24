@@ -35,9 +35,9 @@ releases:
       zookeeper:
         operatorVersion: 25.7.0
   25.3:
-    releaseDate: &latest-release-release-date 2025-03-24
+    releaseDate: 2025-03-24
     description: The March 2025 release
-    products: &latest-release-products
+    products:
       airflow:
         operatorVersion: 25.3.0
       commons:
