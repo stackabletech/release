@@ -1,9 +1,46 @@
 ---
 releases:
-  25.7:
-    releaseDate: &latest-release-release-date 2025-07-23
-    description: The July 2025 release
+  25.11:
+    releaseDate: &latest-release-release-date 2025-11-07
+    description: The November 2025 release
     products: &latest-release-products
+      airflow:
+        operatorVersion: 25.11.0
+      commons:
+        operatorVersion: 25.11.0
+      druid:
+        operatorVersion: 25.11.0
+      hbase:
+        operatorVersion: 25.11.0
+      hdfs:
+        operatorVersion: 25.11.0
+      hive:
+        operatorVersion: 25.11.0
+      kafka:
+        operatorVersion: 25.11.0
+      listener:
+        operatorVersion: 25.11.0
+      nifi:
+        operatorVersion: 25.11.0
+      opa:
+        operatorVersion: 25.11.0
+      opensearch:
+        operatorVersion: 25.11.0
+      secret:
+        operatorVersion: 25.11.0
+      spark-k8s:
+        operatorVersion: 25.11.0
+      superset:
+        operatorVersion: 25.11.0
+      trino:
+        operatorVersion: 25.11.0
+      zookeeper:
+        operatorVersion: 25.11.0
+
+  25.7:
+    releaseDate: 2025-07-23
+    description: The July 2025 release
+    products:
       airflow:
         operatorVersion: 25.7.0
       commons:
