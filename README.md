@@ -5,20 +5,6 @@ The information is available in a machine-readable form in [releases.yaml](https
 
 ## Releases
 
-The following releases are available:
-
-- 25.11
-- 25.7
-- 25.3
-- 24.11
-- 24.7
-- 24.3
-- 23.11
-- 23.7
-- 23.4
-- 23.1
-- 22.11
-- 22.9
-- 22.6
+For a list of available releases please look at the `releases.yaml`.
 
 Take a look at the [release notes](https://docs.stackable.tech/home/stable/release_notes.html) for details.
