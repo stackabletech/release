@@ -7,6 +7,9 @@ The information is available in a machine-readable form in [releases.yaml](https
 
 The following releases are available:
 
+- 26.11
+- 26.7
+- 26.3
 - 25.11
 - 25.7
 - 25.3
