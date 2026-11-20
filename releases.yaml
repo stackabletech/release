@@ -1,9 +1,45 @@
 ---
 releases:
-  26.7:
-    releaseDate: &latest-release-release-date 2026-07-21
-    description: The July 2026 release
+  26.11:
+    releaseDate: &latest-release-release-date 2026-11-21
+    description: The November 2026 release
     products: &latest-release-products
+      airflow:
+        operatorVersion: 26.11.0
+      commons:
+        operatorVersion: 26.11.0
+      druid:
+        operatorVersion: 26.11.0
+      hbase:
+        operatorVersion: 26.11.0
+      hdfs:
+        operatorVersion: 26.11.0
+      hive:
+        operatorVersion: 26.11.0
+      kafka:
+        operatorVersion: 26.11.0
+      listener:
+        operatorVersion: 26.11.0
+      nifi:
+        operatorVersion: 26.11.0
+      opa:
+        operatorVersion: 26.11.0
+      opensearch:
+        operatorVersion: 26.11.0
+      secret:
+        operatorVersion: 26.11.0
+      spark-k8s:
+        operatorVersion: 26.11.0
+      superset:
+        operatorVersion: 26.11.0
+      trino:
+        operatorVersion: 26.11.0
+      zookeeper:
+        operatorVersion: 26.11.0
+  26.7:
+    releaseDate: 2026-07-21
+    description: The July 2026 release
+    products:
       airflow:
         operatorVersion: 26.7.0
       commons:
